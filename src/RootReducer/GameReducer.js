@@ -39,7 +39,7 @@ export const gameReducer = (state = game, action) => {
       // Neu chon keo && mangrand[0].ten = bao  => thang
       // Neu chon bao && mangrand[0].ten = bua  => thang
       // Neu chon bua && mangrand[0].ten = keo  => thang
-      console.log(mangrand[0].ten);
+      // console.log(mangrand[0].ten);
       if(state.rahinh === 'keo' && mangrand[0].ten === 'bao' || state.rahinh === 'bao' && mangrand[0].ten === 'bua' || state.rahinh === 'bua' && mangrand[0].ten === 'keo') {
         state.soBanThang += 1;
       }
