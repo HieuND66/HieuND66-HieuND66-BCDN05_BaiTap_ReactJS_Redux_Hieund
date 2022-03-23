@@ -1,0 +1,61 @@
+@font-face {
+  font-family: Pony;
+  src: url(../asset/font/Pony.ttf);
+}
+.home-game {
+
+  height: 100vh;
+  /* padding: 50px 0; */
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-family: Pony;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home-game .nhanVatImg img{
+  width: 250px;
+}
+
+.home-game p{
+  color: #28a745;
+  font-size: 2rem;
+}
+.keoBuaBao img{
+  cursor: pointer;
+  
+}
+.keoBuaBao img:hover{
+  background-color: rgb(112, 110, 110) !important;
+}
+.speech-bubble {
+  position: relative;
+  background: white;
+  border-radius: 0.4em;
+  border: 5px solid #45D994;
+  left: 50%;
+  width: 150px;
+  transform: translateX(-50%);
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+  bottom: -1px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+.keoBuaBao button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
